@@ -9,18 +9,18 @@ The data are totals for specific treatments between 2013 and 2017 as given by th
 - [Distribution of Residuals](#DistRes)
 - [Big Takeaways](#Takeaway)
 
-### Project Goal <a name = 'ProjGoal'></a>
+## Project Goal <a name = 'ProjGoal'></a>
 The purpose of this project is to predict an accurate cost for the price of a doctor treatment. These treatments include things such as prescriptions, vitamins, office visits, surgeries, etc.
 <br>
 <br>
 <br>
-### Annual Cost of Treatment vs. Number of Uses of Treatment <a name = 'EDA'></a>
+## Annual Cost of Treatment vs. Number of Uses of Treatment <a name = 'EDA'></a>
 
 <center><img src='graphs%20of%20data/cost%20vs%20utilization.png' width = 400></center> <!-- center isn't working, probably deprecated; might be able to fix by referencing this tag in CSS?  // Annual Cost of Treatment vs. Use of Treatment-->
 <br>
 From this, we can vaguely see that generally, as the number of times the treatment is used, the more it will cost.
 
-### Distribution of Residuals <a name = 'DistRes'></a>
+## Distribution of Residuals <a name = 'DistRes'></a>
 
 <center><img src='graphs%20of%20data/dist%20of%20resids.png' width = 400></center>
 <br>
@@ -34,6 +34,6 @@ Another way to view the distribution of the residuals of the dependent variable 
   
 <p>Despite lacking normality in the distribution of the residuals, this model is just a tool for prediction. Most models don't start with perfectly clean data and ours can still give very accurate results.</p>
 
-### Big Takeaways <a name = 'Takeaway'></a>
+## Big Takeaways <a name = 'Takeaway'></a>
 
 After creating various models and testing them against each other by using the mean absolute error as a metric of comparison, we find that our Ridge Regression Model does the best by a small margin.
