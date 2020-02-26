@@ -38,7 +38,7 @@ One of the assumptions of linear regression is that the residuals of the depende
 
 Another way to view the distribution of the residuals of the dependent variable is by a qqplot. From this, we see that the values of the residuals aren't "well distributed" and clusters right below 0. This tells us that the residuals probably do not follow a normal distribution.
 <p>However, these graphs are mostly eye tests. For a more quantitative test for the normality of the residuals, we used the Jarque Bera Test, which told us that the probability of the distribution of our residuals following a normal distribution is "2.551202e-128," or impossible.</p>
-  
+<br>
 <p>Despite lacking normality in the distribution of the residuals, this model is just a tool for prediction. Most models don't start with perfectly clean data and ours can still give very accurate results.</p>
 
 ## Big Takeaways <a name = 'Takeaway'></a>
