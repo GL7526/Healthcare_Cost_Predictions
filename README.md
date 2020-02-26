@@ -17,7 +17,7 @@ The purpose of this project is to predict an accurate cost for the price of a do
 ## Annual Cost of Treatment vs. Number of Uses of Treatment <a name = 'EDA'></a>
 
 <center><img src='graphs%20of%20data/cost%20vs%20utilization.png' width = 400></center> <!-- center isn't working, probably deprecated; might be able to fix by referencing this tag in CSS?  // Annual Cost of Treatment vs. Use of Treatment-->
-<br>
+
 From this, we can vaguely see that generally, as the number of times the treatment is used, the more it will cost.
 
 ## Distribution of Residuals <a name = 'DistRes'></a>
@@ -25,7 +25,6 @@ From this, we can vaguely see that generally, as the number of times the treatme
 <center><img src='graphs%20of%20data/dist%20of%20resids.png' width = 400></center>
 <br>
 One of the assumptions of linear regression is that the residuals of the dependent variable should be homoscedastic and should therefore follow a normal distribution when plotted by frequency, which is graphed in the image above.
-<br>
 <br>
 <center><img src='graphs%20of%20data/qqplot.png' width = 400></center>
 <br>
