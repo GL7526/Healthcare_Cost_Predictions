@@ -3,3 +3,12 @@ This repository is dedicated to a project between myself and George which attemp
 
 
 The data are totals for specific treatments between 2013 and 2017 as given by the Heath Care Cost Institute. The data can be found under "Public Data" and in the link "Annual Report Dataset" in the following webpage: https://healthcostinstitute.org/data
+
+
+<center><img src='graphs%20of%20data/cost%20vs%20utilization.png' width = 500></center> <!-- for some reason center isn't working -->
+
+
+<center><img src='graphs%20of%20data/dist%20of%20resids.png' width = 500></center>
+
+
+<center><img src='graphs%20of%20data/qqplot.png' width = 500></center>
