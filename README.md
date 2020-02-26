@@ -43,4 +43,4 @@ Another way to view the distribution of the residuals of the dependent variable 
 
 ## Big Takeaways <a name = 'Takeaway'></a>
 
-After creating various models and testing them against each other by using the mean absolute error as a metric of comparison, we find that our Ridge Regression Model does the best by a small margin.
+After creating various models and testing them against each other by using the mean absolute error as a metric of comparison, we find that our Ridge Regression Model does the best by a small margin. In addition, we found that the subcategory of treatment made up 16 of the 18 best predictors of our data, which, along with commonality of the treatment, all had positive correlations with the annual cost to the patient. The only variable that had a negative correlation in predicting the annual cost of the treatment was whether the treatment was in the category RX, meaning that prescription drugs were given. 
