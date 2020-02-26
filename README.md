@@ -5,7 +5,8 @@ This repository is dedicated to a project between myself and George which attemp
 The data are totals for specific treatments between 2013 and 2017 as given by the Heath Care Cost Institute. The data can be found under "Public Data" and in the link "Annual Report Dataset" in the following webpage: https://healthcostinstitute.org/data
 
 - [Project Goal](#ProjGoal)
-- [Preview Data](#EDA)
+- [Preview Data](#LookAtDep)
+- [Scatterplot With An Independent Variable](#EDA)
 - [Distribution of Residuals](#DistRes)
 - [Big Takeaways](#Takeaway)
 
@@ -14,6 +15,12 @@ The purpose of this project is to predict an accurate cost for the price of a do
 <br>
 <br>
 <br>
+## Preview Distribution of Dependent Variable <a name = 'LookAtDep'></a>
+
+<center><img src='master/graphs%20of%20data/distribution_of_annual_cost.png' width = 400></center>
+The first thing we did was look at the distribution of the dependent variable. This gives us a quick estimate on where the lowest and highest values lie and which values occur the most. This can help us determine whether or not there are extreme outliers that we may want to remove, but since we have a small sample size, we decided against removing too many.
+
+
 ## Annual Cost of Treatment vs. Number of Uses of Treatment <a name = 'EDA'></a>
 
 <center><img src='graphs%20of%20data/cost%20vs%20utilization.png' width = 400></center> <!-- center isn't working, probably deprecated; might be able to fix by referencing this tag in CSS?  // Annual Cost of Treatment vs. Use of Treatment-->
