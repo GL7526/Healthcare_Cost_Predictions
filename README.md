@@ -25,8 +25,8 @@ From this, we can vaguely see that generally, as the number of times the treatme
 <center><img src='graphs%20of%20data/dist%20of%20resids.png' width = 400></center>
 <br>
 One of the assumptions of linear regression is that the residuals of the dependent variable should be homoscedastic and should therefore follow a normal distribution when plotted by frequency, which is graphed in the image above.
-
-
+<br>
+<br>
 <center><img src='graphs%20of%20data/qqplot.png' width = 400></center>
 <br>
 Another way to view the distribution of the residuals of the dependent variable is by a qqplot. From this, we see that the values of the residuals aren't "well distributed" and clusters right below 0. This tells us that the residuals probably do not follow a normal distribution.
