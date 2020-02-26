@@ -9,7 +9,7 @@ The data are totals for specific treatments between 2013 and 2017 as given by th
 - [Scatterplot With An Independent Variable](#EDA)
 - [Distribution of Residuals](#DistRes)
 - [Big Takeaways](#Takeaway)
-
+<br>
 ## Project Goal <a name = 'ProjGoal'></a>
 The purpose of this project is to predict an accurate cost for the price of a doctor treatment. These treatments include things such as prescriptions, vitamins, office visits, surgeries, etc.
 <br>
@@ -17,7 +17,7 @@ The purpose of this project is to predict an accurate cost for the price of a do
 <br>
 ## Preview Distribution of Dependent Variable <a name = 'LookAtDep'></a>
 
-<center><img src='master/graphs%20of%20data/distribution_of_annual_cost.png' width = 400></center>
+<center><img src='graphs%20of%20data/distribution_of_annual_cost.png' width = 400></center>
 The first thing we did was look at the distribution of the dependent variable. This gives us a quick estimate on where the lowest and highest values lie and which values occur the most. This can help us determine whether or not there are extreme outliers that we may want to remove, but since we have a small sample size, we decided against removing too many.
 
 
