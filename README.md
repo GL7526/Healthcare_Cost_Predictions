@@ -18,7 +18,9 @@ The purpose of this project is to predict an accurate cost for the price of a me
 
 ## Preview Distribution of Dependent Variable <a name = 'LookAtDep'></a>
 
-<center><img src='graphs%20of%20data/distribution_of_annual_cost.png' width = 400></center>
+<p align = "center">
+  <img src='graphs%20of%20data/distribution_of_annual_cost.png' width = 400>
+</p>
 The first thing we did was look at the distribution of the dependent variable. This gives us a quick estimate of where the lowest and highest values lie and which values occur the most. This can help us determine whether or not there are extreme outliers that we may want to remove, but since we have a small sample size, we decided against removing too many.
 
 
